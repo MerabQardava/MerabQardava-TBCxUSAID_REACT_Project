@@ -1,0 +1,69 @@
+#infoSection{
+    margin-top: 84px;
+    margin-bottom: 0;
+}
+#infoSection header{
+    height: 352px;
+    width: 100%;
+    background-image: url("/public/HomeImage.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#infoSection header h1{
+    margin: 0;
+    margin-bottom: 40px;
+    width: 980px;
+    color: white;
+    font-family: TbcHeader,monospace;
+    font-size: 42px;
+}
+#infoSection header span{
+    margin-top: 8px;
+    display: block;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+#infoSection section{
+    margin: 0;
+    width: 100%;
+    height: 465px;
+    background-color: rgb(43, 43, 43);
+    box-sizing: border-box;
+    padding-top: 65px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+}
+
+#infoSection section p{
+
+    color: white;
+    font-size: 28px;
+    font-family: TbcRegular,sans-serif;
+    margin-top: 0;
+    line-height: 44.8px;
+    margin-bottom: 45px;
+}
+
+
+#sectionTextContainer{
+    width: 980px;
+    margin: auto;
+}
+
+#sectionTextContainer a{
+    width: 25px;
+    text-decoration: none;
+    color: rgb(0, 174, 243);
+    font-size: 20px;
+    font-family: TbcBolder,sans-serif;
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d5d5d5;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "TbcRegular";   /*Can be any text*/
+  src: local("tbc"),
+  url("../public/fonts/TBCRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TbcHeader";   /*Can be any text*/
+  src: local("tbc"),
+  url("../public/fonts/TBCHeader.ttf") format("truetype");
+}@font-face {
+  font-family: "TbcBolder";   /*Can be any text*/
+  src: local("tbc"),
+  url("../public/fonts/TBCBolder.ttf") format("truetype");
+}
+
